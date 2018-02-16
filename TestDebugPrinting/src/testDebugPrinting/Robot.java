@@ -1,5 +1,7 @@
 package testDebugPrinting;
 
+// Explain why the Robot class is so important as a base class for all Robots
+
 public class Robot extends BaseRobot {
 	private int myCompetitionYear;
 	
