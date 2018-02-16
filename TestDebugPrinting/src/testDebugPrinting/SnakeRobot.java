@@ -17,5 +17,9 @@ public class SnakeRobot extends Robot {
 		super(name, competitionYear);
 		// TODO Auto-generated constructor stub
 	}
-
+	
+	public String toString()
+	{
+		return "This is a Snake Robot";
+	}
 }
