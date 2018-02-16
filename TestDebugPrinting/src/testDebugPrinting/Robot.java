@@ -8,6 +8,7 @@ public class Robot extends BaseRobot {
 	public Robot(String name, int competitionYear) {
 		super(name);
 		myCompetitionYear = competitionYear;
+		if (myCompetitionYear <100) myCompetitionYear += 2000;
 	}
 	
 	public String toString() {

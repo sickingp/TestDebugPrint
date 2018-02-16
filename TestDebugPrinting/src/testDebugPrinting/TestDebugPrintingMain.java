@@ -14,8 +14,8 @@ public class TestDebugPrintingMain {
         robot.add(new Subsystem("Lift"));
         System.out.println(robot);  
         
-        DroneRobot droneRobot = new DroneRobot("Paul's Drone",2019, 1000.);
-        System.out.println(droneRobot);
+        SnakeRobot snakeRobot = new SnakeRobot("Paul's Snake",2019, "Rattle");
+        System.out.println(snakeRobot);
         
         System.exit( 0 ); //success
     }
