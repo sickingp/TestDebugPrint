@@ -13,7 +13,7 @@ public class Robot extends BaseRobot {
 	public String toString() {
 		String objectString;
 		objectString = super.toString();
-		objectString += "\nCompetition Year == " + myCompetitionYear;
+		objectString += "\nCompetition Year = " + myCompetitionYear;
 		return objectString;
 	}
 
